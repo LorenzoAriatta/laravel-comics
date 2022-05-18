@@ -1,0 +1,76 @@
+.blue-band {
+    width: 100%;
+    background-color: #0282f9;
+    height: 80px;
+}
+
+.detail-container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 2%;
+    row-gap: 50px;
+    padding: 50px 0px;
+    position: relative;
+    background-color: whitesmoke;
+}
+
+.small-container {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.detail-price {
+    width: 100%;
+    padding: 20px 10px;
+    background-color: #55ba59;
+    display: flex;
+    justify-content: space-between;
+
+    .check {
+        color: whitesmoke;
+    }
+
+    .price {
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        color: #bafd9c;
+
+        span {
+            color: whitesmoke;
+        }
+    }
+}
+
+.detail-content {
+    width: 70%;
+
+    h1 {
+        color: #003f5e;
+    }
+
+    p {
+        line-height: 25px;
+        color: gray;
+        font-weight: bold;
+    }
+}
+
+.advertisement {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    h5 {
+        text-align: end;
+        color: grey;
+    }
+}

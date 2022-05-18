@@ -3,6 +3,7 @@
   padding: 0%;
   box-sizing: border-box;
   font-family: sans-serif;
+  scroll-behavior: smooth;
 }
 
 header {
@@ -71,6 +72,14 @@ main {
      object-fit: cover;
   -o-object-position: top;
      object-position: top;
+}
+
+.flyimg {
+  width: 15%;
+  height: 100%;
+  position: absolute;
+  bottom: 85%;
+  left: 20%;
 }
 
 .flydiv {
@@ -162,6 +171,15 @@ footer {
   background-size: cover;
 }
 
+footer img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
 .container {
   width: 70%;
   margin: 0 auto;
@@ -251,5 +269,83 @@ button:hover {
   transition: ease-out 0.5s;
   box-shadow: 0px 0px 25px 5px #0282f9;
   border-radius: 25px;
+}
+
+.blue-band {
+  width: 100%;
+  background-color: #0282f9;
+  height: 80px;
+}
+
+.detail-container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  -moz-column-gap: 2%;
+       column-gap: 2%;
+  row-gap: 50px;
+  padding: 50px 0px;
+  position: relative;
+  background-color: whitesmoke;
+}
+
+.small-container {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.detail-price {
+  width: 100%;
+  padding: 20px 10px;
+  background-color: #55ba59;
+  display: flex;
+  justify-content: space-between;
+}
+
+.detail-price .check {
+  color: whitesmoke;
+}
+
+.detail-price .price {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: #bafd9c;
+}
+
+.detail-price .price span {
+  color: whitesmoke;
+}
+
+.detail-content {
+  width: 70%;
+}
+
+.detail-content h1 {
+  color: #003f5e;
+}
+
+.detail-content p {
+  line-height: 25px;
+  color: gray;
+  font-weight: bold;
+}
+
+.advertisement {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.advertisement h5 {
+  text-align: end;
+  color: grey;
 }
 

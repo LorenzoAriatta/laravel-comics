@@ -6,8 +6,10 @@
     padding: 0%;
     box-sizing: border-box;
     font-family: sans-serif;
+    scroll-behavior: smooth;
 }
 
 @import 'header';
 @import 'main';
 @import 'footer';
+@import 'detail';
