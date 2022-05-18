@@ -17,14 +17,12 @@
 
 
     @include('partials/main')
-    @yield('spotlight')
-    @yield('shop-links')
 
 
-    <footer>
-        @yield('top-footer')
-        @yield('bot-footer')
-    </footer>
+
+    @include('partials/top-footer')
+    @include('partials/bot-footer')
+
 
 </body>
 
