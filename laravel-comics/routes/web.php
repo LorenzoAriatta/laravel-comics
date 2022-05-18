@@ -12,11 +12,14 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+/*
 Route::get('/', function () {
     return view('homepage');
 });
+*/
 
-// Route::get('/', function (){
-//     return view('homepage', include __DIR__ . '/config/comics.php');
-// });
+Route::get('/', function (){
+    include __DIR__ . '/../config/comics.php';
+    return view('homepage', ["comics" => $comics]);
+});
+

@@ -5,14 +5,14 @@
             <h2>CURRENT SERIES</h2>
         </div>
 
-        {{-- @foreach ($comics as $item)
+        @foreach ($comics as $item)
             <article>
                 <div class="cards">
-                    <img src="imgPath" alt="coverComics" />
-                    <p>{{  }}</p>
+                    <img src={{ $item['thumb'] }} alt="coverComics" />
+                    <p>{{ $item['title'] }}</p>
                 </div>
             </article>
-        @endforeach --}}
+        @endforeach
 
     </div>
     <button>LOAD MORE</button>

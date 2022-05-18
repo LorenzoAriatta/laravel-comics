@@ -11,18 +11,10 @@
 
 <body>
 
-
     @include('partials/header')
-
-
-
     @include('partials/main')
-
-
-
     @include('partials/top-footer')
     @include('partials/bot-footer')
-
 
 </body>
 
