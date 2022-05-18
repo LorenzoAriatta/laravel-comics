@@ -1,5 +1,5 @@
 <main>
-    <div class="jumbo"></div>
+    <div class="jumbo"><img src="images/jumbotron.jpg" alt="jumbo"></div>
     <div class="main-container">
         <div class="flydiv">
             <h2>CURRENT SERIES</h2>
@@ -8,7 +8,7 @@
         @foreach ($comics as $item)
             <article>
                 <div class="cards">
-                    <img src={{ $item['thumb'] }} alt="coverComics" />
+                    <a href="comic-detail"><img src={{ $item['thumb'] }} alt="coverComics" /></a>
                     <p>{{ $item['title'] }}</p>
                 </div>
             </article>

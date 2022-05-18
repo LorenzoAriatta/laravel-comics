@@ -62,8 +62,15 @@ main {
 .jumbo {
   width: 100%;
   height: 40vh;
-  background-repeat: no-repeat;
-  background-position: top;
+}
+
+.jumbo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
 }
 
 .flydiv {

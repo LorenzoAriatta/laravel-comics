@@ -23,3 +23,7 @@ Route::get('/', function (){
     return view('homepage', ["comics" => $comics]);
 });
 
+Route::get('comic-detail', function () {
+    include __DIR__ . '/../config/comics.php';
+    return view('comic-detail', ["comics" => $comics]);
+});
