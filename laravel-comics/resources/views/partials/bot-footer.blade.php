@@ -108,23 +108,23 @@
                 <h3>FOLLOW US</h3>
                 <div class="icon-social">
                     <a href="#">
-                        <img src="images/footer-facebook.png" alt="Facebook" /></a>
+                        <img src="/images/footer-facebook.png" alt="Facebook" /></a>
                 </div>
                 <div class="icon-social">
                     <a href="#">
-                        <img src="images/footer-twitter.png" alt="twitter" /></a>
+                        <img src="/images/footer-twitter.png" alt="twitter" /></a>
                 </div>
                 <div class="icon-social">
                     <a href="#">
-                        <img src="images/footer-youtube.png" alt="youtube" /></a>
+                        <img src="/images/footer-youtube.png" alt="youtube" /></a>
                 </div>
                 <div class="icon-social">
                     <a href="#">
-                        <img src="images/footer-pinterest.png" alt="pinterest" /></a>
+                        <img src="/images/footer-pinterest.png" alt="pinterest" /></a>
                 </div>
                 <div class="icon-social">
                     <a href="#">
-                        <img src="images/footer-periscope.png" alt="periscope" /></a>
+                        <img src="/images/footer-periscope.png" alt="periscope" /></a>
                 </div>
             </div>
         </div>

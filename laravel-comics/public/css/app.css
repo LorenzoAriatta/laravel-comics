@@ -76,9 +76,8 @@ main {
 
 .flyimg {
   width: 15%;
-  height: 100%;
   position: absolute;
-  bottom: 85%;
+  bottom: 105%;
   left: 20%;
 }
 
@@ -293,6 +292,29 @@ button:hover {
   background-color: whitesmoke;
 }
 
+.detail-specs {
+  width: 100%;
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+}
+
+.detail-specs .artists {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-specs .artists .title {
+  border-bottom: 1px solid black;
+}
+
+.detail-specs .spec {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
 .small-container {
   width: 60%;
   display: flex;
@@ -302,7 +324,8 @@ button:hover {
 
 .detail-price {
   width: 100%;
-  padding: 20px 10px;
+  padding: 15px 10px;
+  margin: 20px 0;
   background-color: #55ba59;
   display: flex;
   justify-content: space-between;
