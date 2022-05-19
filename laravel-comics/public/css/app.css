@@ -289,24 +289,72 @@ button:hover {
   row-gap: 50px;
   padding: 50px 0px;
   position: relative;
-  background-color: whitesmoke;
+  background-color: white;
 }
 
 .detail-specs {
   width: 100%;
   background-color: #f6f6f6;
+  border-top: 1px solid lightgray;
   display: flex;
   justify-content: center;
+  padding: 20px 0 80px 0;
 }
 
-.detail-specs .artists {
-  width: 50%;
+.detail-specs .artists,
+.detail-specs .spec {
+  width: 45%;
   display: flex;
   flex-direction: column;
 }
 
-.detail-specs .artists .title {
-  border-bottom: 1px solid black;
+.detail-specs .artists .title,
+.detail-specs .spec .title {
+  border-bottom: 1px solid lightgray;
+  color: #003f5e;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.detail-specs .artists .artBy,
+.detail-specs .artists .writters,
+.detail-specs .spec .artBy,
+.detail-specs .spec .writters {
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  padding: 10px 0;
+  color: #003f5e;
+  font-weight: bold;
+}
+
+.detail-specs .artists .artBy .subtitle,
+.detail-specs .artists .writters .subtitle,
+.detail-specs .spec .artBy .subtitle,
+.detail-specs .spec .writters .subtitle {
+  width: 50%;
+}
+
+.detail-specs .artists .artBy .list,
+.detail-specs .artists .writters .list,
+.detail-specs .spec .artBy .list,
+.detail-specs .spec .writters .list {
+  width: 50%;
+}
+
+.detail-specs .artists .artBy .list a,
+.detail-specs .artists .writters .list a,
+.detail-specs .spec .artBy .list a,
+.detail-specs .spec .writters .list a {
+  text-decoration: none;
+  color: #0282f9;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.detail-specs .artists .writters,
+.detail-specs .spec .writters {
+  border-bottom: 1px solid lightgray;
 }
 
 .detail-specs .spec {
@@ -320,6 +368,13 @@ button:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.spec-container {
+  width: 60%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
 .detail-price {
@@ -372,5 +427,10 @@ button:hover {
 .advertisement h5 {
   text-align: end;
   color: grey;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
 }
 
