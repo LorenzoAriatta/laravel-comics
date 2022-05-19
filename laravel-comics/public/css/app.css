@@ -167,6 +167,7 @@ article {
 }
 
 footer {
+  background-image: url(/images/footer-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -218,6 +219,7 @@ footer img {
 }
 
 .logo-bg {
+  background-image: url(/images/dc-logo-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: center;
